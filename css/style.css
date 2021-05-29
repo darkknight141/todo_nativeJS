@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+
+body {
+    background: linear-gradient( 123.84deg, #3c3d3f 0.32%, #36393d 49.45%, #4a4a4e 95.61%);
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+    height: 50px;
+    width: auto;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: darkturquoise;
+    margin-top: 20px;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#add-btn {
+    float: right;
+}
+
+ul {
+    margin: 0 auto;
+    width: 500px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #00aaaa;
+    list-style: none;
+}
+
+.del {
+    text-align: center;
+    height: 25px;
+    width: 30px;
+    float: right;
+    padding-top: 5px;
+}
+
+.del:hover {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background-color: darkslategrey;
+}
+
+.cb {
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.security {
+    margin-top: 100px;
+    position: relative;
+    /*margin: -14px 1px 8px;*/
+    width: calc(100% - 2px);
+    overflow: hidden;
+    background-color: red;
+}
+
+
+/*.security::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    top: 5px;
+    left: 50%;
+    background-color: #ffffff;
+}
+
+.security::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    top: 5px;
+    left: 90%;
+    background-color: #ffffff;
+}*/
+
+#security-bar {
+    height: 10px;
+    width: 0;
+    background-color: mediumpurple;
+}
+
+#input {
+    padding-right: 50px;
+    height: 25px;
+    margin-right: 50px;
+}
+
+.btn2 {
+    margin-right: 20px;
+}
+
+.list-task {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    color: darkturquoise;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
